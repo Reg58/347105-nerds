@@ -5,49 +5,67 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-    <!-- header --><!--ВОПРОС ПО Тегам <H1><H2> и <b>  -->
+    <!-- header -->
     <header class="main-header">
       <div class="container">
-          <div class="nerds-logo">
-            <a href="#">
-              <img src="http://placehold.it/161x65" width="161" height="65" alt="nerds">
-            </a>
-          </div>
-          <nav class="main-navigation">
-            <ul>
-              <li><a href="#">СТУДИЯ</a></li>
-              <li><a href="#">КЛИЕНТЫ</a></li>
-              <li><a href="#">МАГАЗИН</a></li>
-              <li><a href="#">КОНТАКТЫ</a></li>
-            </ul>
-          </nav>
-          <div class="cart">
-            <a class="cart-icon" href="#">КОРЗИНА</a>
-          </div>
+        <div class="nerds-logo">
+          <a href="#">
+            <img src="http://placehold.it/161x65" width="161" height="65" alt="nerds">
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="cart">
+          <a class="cart-icon" href="#">Корзина</a>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider-item slider-item-1">
+          <p class="slider-title">Долго, дорого,  скрупулезно.</p>
+          <p class="slider-text">Математически выверенный дизайн  для вашего сайта или мобильного приложения</p>
+          <a href="#" class="btn">Узнать больше</a>
+        </div>
+        <div class="slider-item slider-item-2">
+          <p class="slider-title">Любим математику как никто другой</p>
+          <p class="slider-text">Никакого креатива, только математические формулы  для расчета идеальных пропорций</p>
+          <a href="#" class="btn">Узнать больше</a>
+        </div>
+        <div class="slider-item slider-item-3">
+          <p class="slider-title">Только ночь, только хардкор</p>
+          <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
+          <a href="#" class="btn">Узнать больше</a>
+        </div>
+        <!-- кнопки в слаидере ? -->
+        </div>
       </div>
     </header>
     <!-- основной блок -->
     <main class="container">
-      <div class="slaider"></div>
       <!-- section 1 -->
       <section class="features">
         <div class="features-item">
           <img src="http://placehold.it/300x145" width="300" height="145">
-          <h2 class="features-name">ВЕБ САЙТЫ</h2>
+          <h2 class="features-name">Веб сайты</h2>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a href="#" class="btn">ЗАКАЗАТЬ</a>
+          <a href="#" class="btn">Заказать</a>
         </div>
         <div class="features-item">
           <img src="http://placehold.it/300x145" width="300" height="145">
-          <h2 class="features-name">ПРИЛОЖЕНИЯ</h2>
+          <h2 class="features-name">Приложения</h2>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a href="#" class="btn">ЗАКАЗАТЬ</a>
+          <a href="#" class="btn">Заказать</a>
         </div>
         <div class="features-item">
           <img src="http://placehold.it/300x145" width="300" height="145">
-          <h2 class="features-name">ПРЕЗЕНТАЦИИ</h2>
+          <h2 class="features-name">Презентации</h2>
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a href="#" class="btn">ЗАКАЗАТЬ</a>
+          <a href="#" class="btn">Заказать</a>
         </div>
       </section>
       <!-- section 2 -->
@@ -64,16 +82,20 @@
         </div>
         <div class="index-content-right">
           <img src="http://placehold.it/360x210" width="360" height="210">
-          <h2 class="index-content-title">С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</h2>
+          <h2 class="index-content-title">С 2004 года любим точность во всем:</h2>
           <ul>
-            <li>146<sup>%</sup></li>
-            <li>100<sup>%</sup></li>
-            <li>50<sup>%</sup></li>
-          </ul>
-          <ul>
-            <li>Уровень самоотдачи</li>
-            <li>Соблюдение  сроков</li>
-            <li>Минимальная предоплата</li>
+            <li>
+              <p class="index-content-left-title">146<sup>%</sup></p>
+              <p class="index-content-left-text">Уровень самоотдачи</p>
+            </li>
+            <li>
+              <p class="index-content-left-title">100<sup>%</sup></p>
+              <p class="index-content-left-text">Соблюдение  сроков</p>
+            </li>
+            <li>
+              <p class="index-content-left-title">50<sup>%</sup></p>
+              <p class="index-content-left-text">Минимальная предоплата</p>
+            </li>
           </ul>
         </div>
       </section>
@@ -86,16 +108,20 @@
           <li><img src="http://placehold.it/173x84" width="173" height="84"></li>
         </ul>
       </div>
-      <section class="contacts">
-        <div class="contacts-adres">
-          <h2>NЁRDS DESIGN STUDIO</h2>
-          <p>191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8</p>
-          <p>тел. +7(812)275-75-75</p>
-          <a href="#" class="btn">НАПИШИТЕ НАМ</a>
-        </div>
-        <div class="contacts-maps"></div>
-      </section>
     </main>
+    <div class="map">
+      <div class="map-wrapper"></div>
+      <div class="container">
+        <section class="contacts">
+          <div class="contacts-adres">
+            <h2>NЁRDS DESIGN STUDIO</h2>
+            <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. +7(812)275-75-75</p>
+            <a href="#" class="btn">Напишите нам</a>
+          </div>
+        </section>
+      </div>
+    </div>
     <!-- footer -->
     <footer class="main-footer">
       <div class="container">
@@ -110,5 +136,18 @@
         </section>
       </div>
     </footer>
+    <div class="popup">
+      <h2>Напишите нам</h2>
+      <button class="close"></button>
+      <form class="popup-form"><!-- Метод? -->
+        <label for="name"><h3>Ваше имя:</h3></label>
+        <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+        <label for="mail"><h3>Ваш e-mail:</h3></label>
+        <input type="text" name="email" id="mail" placeholder="Для отправки ответа">
+        <label for="text-mail"><h3>Текст письма:</h3></label>
+        <textarea id="text-mail" placeholder="В свободной форме"></textarea>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
   </body>
 </html>

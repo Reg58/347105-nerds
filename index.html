@@ -43,7 +43,6 @@
         </div>
         <!-- кнопки в слаидере ? -->
         </div>
-      </div>
     </header>
     <!-- основной блок -->
     <main class="container">
@@ -138,13 +137,13 @@
     </footer>
     <div class="popup">
       <h2>Напишите нам</h2>
-      <button class="close"></button>
-      <form class="popup-form"><!-- ======== метод отправки Get pst ? ====== -->
-        <label for="name"><h3>Ваше имя:</h3></label>
+      <button type="button"  class="close"></button>
+      <form action="popup.html" class="popup-form">
+        <label for="name">Ваше имя:</label>
         <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
-        <label for="mail"><h3>Ваш e-mail:</h3></label>
+        <label for="mail">Ваш e-mail:</label>
         <input type="text" name="email" id="mail" placeholder="Для отправки ответа">
-        <label for="text-mail"><h3>Текст письма:</h3></label>
+        <label for="text-mail">Текст письма:</label>
         <textarea id="text-mail" placeholder="В свободной форме"></textarea>
         <button type="submit" class="btn">Отправить</button>
       </form>

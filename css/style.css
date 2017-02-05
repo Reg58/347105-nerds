@@ -1,0 +1,44 @@
+body {
+  min-width: 1440px;
+  min-height: 2476px;
+  margin: 0;
+  padding: 0;
+  background: #E7FBB2 /*url("../img/nerds-index.jpg")*/;
+}
+
+/*===== header =====*/
+
+.container {
+  width: 1200px;
+  min-height:545px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.nerds-logo {
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+}
+
+.main-navigation {
+  width: 440px;
+  min-height: 35px;
+  border: 1px solid black;
+  float: left;
+}
+
+.cart {
+  width: 120px;
+  height: 35px;
+  border: 1px solid black;
+  float: right;
+}
+
+.slider {
+  clear: both;
+  min-height: 413px;
+  background-color: blue;
+}

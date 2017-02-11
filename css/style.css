@@ -1,44 +1,178 @@
 body {
-  min-width: 1440px;
-  min-height: 2476px;
-  margin: 0;
-  padding: 0;
   background: #E7FBB2 /*url("../img/nerds-index.jpg")*/;
 }
 
-/*===== header =====*/
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
+/*===== header =====*/
+.main-header {
+  background-color: rgb(238, 238, 238);
+}
 .container {
   width: 1200px;
-  min-height:545px;
   margin: 0 auto;
   padding: 0 10px;
-  background-color: pink;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .nerds-logo {
-  width: 200px;
   border: 1px solid black;
   float: left;
 }
 
 .main-navigation {
-  width: 440px;
-  min-height: 35px;
   border: 1px solid black;
   float: left;
 }
 
+.navigation-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.navigation-list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .cart {
-  width: 120px;
-  height: 35px;
   border: 1px solid black;
   float: right;
 }
 
 .slider {
-  clear: both;
-  min-height: 413px;
-  background-color: blue;
+  margin-bottom: 10px;
+}
+
+.features-item {
+  width: 300px;
+  float: left;
+}
+
+.features-item:not(:first-child) {
+  margin-left: 100px;
+}
+
+.index-content {
+  margin-top: 10px;
+}
+
+.index-content-left {
+  width: 660px;
+  float: left;
+}
+
+.index-content-right {
+  float: right;
+}
+
+.right-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.right-list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*=== client-logo === */
+.client-logo-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.client-logo-list-item {
+  margin-left: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.map {
+  min-height: 415px;
+  background-image: url("../img/map.jpg");
+}
+
+.contacts {
+  margin-top: 55px;
+  width: 320px;
+  height: 305px;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-footer {
+  min-height: 217px;
+}
+
+.footer-social {
+  margin-top: 70px;
+  border: 1px solid black;
+  float: left;
+}
+
+.footer-info {
+  margin-left: 140px;
+  border: 1px solid black;
+  float: left;
+}
+
+.popup {
+  width: 960px;
+  height: 590px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*=== catalog ===*/
+.sidebar {
+  float: left;
+}
+
+.catalog {
+  width: 860px;
+  float: right;
+}
+
+.sort {
+
+}
+
+.sort-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.sort-list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.catalog-sites-list {
+  margin-left: 40px;
+  float: left;
+}
+
+.catalog-sites-list:nth-child(2n+1) {
+  margin-left: 0;
+}
+
+/*=== pagination ===*/
+
+.pagination-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.pagination-list-item {
+  display: inline-block;
+  vertical-align: middle;
 }
